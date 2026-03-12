@@ -8,7 +8,7 @@ public class EstablishedConnectionJDBC {
 
     public static void main(String[] args) 
     {
-    	System.out.println("HEY Akshay");
+    	System.out.println("HEY AkshayPatil");
     	
     	try {
         	Class.forName("oracle.jdbc.driver.OracleDriver");
