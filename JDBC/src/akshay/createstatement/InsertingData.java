@@ -22,6 +22,7 @@ public class InsertingData {
 			
 			//inserting record
 			stmt.executeUpdate("insert into student values(1,'akshay',80)");
+			stmt.executeUpdate("insert into student values(2,'bokya',40)");
 			System.out.println("record inserted");
 			
 			
