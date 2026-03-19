@@ -23,7 +23,7 @@ public class CreateInsertRead
 			// create table
 			try 
 			{
-				stmt.executeUpdate("create table employee(empid number(4), empname varchar2(10), empsal number(6))");
+				stmt.execute("create table employee(empid number(4), empname varchar2(10), empsal number(6))");
 				System.out.println("Table Created Successfully...!");
 			} 
 			catch (Exception e) 
