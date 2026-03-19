@@ -21,8 +21,10 @@ public class InsertingData {
 			Statement stmt = con.createStatement();
 			
 			//inserting record
-			stmt.execute("insert into student values(1,'akshay',80)");
+			stmt.executeUpdate("insert into student values(1,'akshay',80)");
 			System.out.println("record inserted");
+			
+			
 			
 			
 		}
