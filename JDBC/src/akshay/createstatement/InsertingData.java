@@ -36,3 +36,8 @@ public class InsertingData {
 	}
 
 }
+
+
+/* executeUpdate():- method are use to performing DML operation in database.
+ * java code executed under JRE and SQL code executed under database.  */
+ 
