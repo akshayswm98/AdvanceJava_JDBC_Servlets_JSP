@@ -10,7 +10,10 @@ public class EstablishedConnectionJDBC {
     {
     	
       try {
+    	  //load driver
         	Class.forName("oracle.jdbc.driver.OracleDriver");
+        	
+        	//established connection
             Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/ORCL","system","patil123");
 
             System.out.println("Connection Established Successfully");
